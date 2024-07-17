@@ -63,31 +63,25 @@ img{
     left: 53%;
     text-align: center;
 }
-.bluebtn{
-    background-color: rgb(13, 100, 223);
-    border: none;
-    border-radius: 25px;
-    height: 45px;
-    width: 140px;
-}
-.bluebtn a{
+
+.bb a{
     text-decoration: none;
     color: white;
     font-size: 19px;
-}
-.transbtn{
-    background-color: rgba(13, 101, 223, 0);
-    border: 1px solid rgb(13, 100, 223);
+    background-color: rgb(13, 100, 223);
     border-radius: 25px;
-    height: 45px;
-    width: 80px;
+    padding: 10px 15px;
 }
-.transbtn a{
+.tb a{
     text-decoration: none;
     color: rgb(13, 100, 223);
     font-size: 19px;
+    background-color: rgba(13, 101, 223, 0);
+    border: 1px solid rgb(13, 100, 223);
+    border-radius: 25px;
+    padding: 10px 15px;
 }
-.transbtn:hover ,.transbtn a:hover{
+.tb a:hover{
     background-color: rgb(13, 100, 223);
     border: none;
     color: white;
@@ -155,14 +149,11 @@ img{
     width: 100%;
     text-align: center;
 }
-.gbluebtn{
+.gbb a{
     background-color: rgb(13, 100, 223);
     border: none;
     border-radius: 25px;
-    height: 35px;
-    width: 100px;
-}
-.gbluebtn a{
+    padding: 10px 15px;
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -173,30 +164,26 @@ img{
     left: 50%;
     text-align: center;
 }
-.gtransbtn{
+.gtb a{
     background-color: rgba(13, 101, 223, 0);
     border: 1px solid rgb(13, 100, 223);
     border-radius: 25px;
-    height: 35px;
-    width: 80px;
-}
-.gtransbtn a{
+    padding: 10px 15px;
     text-decoration: none;
-    color: rgb(13, 100, 223);
+    color:rgb(13, 100, 223);
     font-size: 15px;
 }
-.gtransbtn:hover ,.gtransbtn a:hover{
+.gtb a:hover{
     background-color: rgb(13, 100, 223);
     border: none;
     color: white;
 }
-#gtbtnblk a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
+#blkbtn a{
+    color: black;
+    border: 1px solid black;
 }
-#gtbtnblk:hover,#gtbtnblk a:hover{
-    background-color: black;
+#blkbtn a:hover{
+    background-color: rgb(0, 0, 0);
     border: none;
     color: white;
 }
