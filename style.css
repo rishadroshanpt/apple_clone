@@ -199,7 +199,7 @@ img{
     opacity: 1;
 }
 .m6{
-    background-color:rgba(211, 207, 207, 0.499);
+    background-color:rgb(239, 239, 239);
 }
 #m6s1{
     border-bottom: 1px solid black;
@@ -218,7 +218,6 @@ img{
 #m6s2{
     display: flex;
     white-space: nowrap;
-    border-bottom: 1px solid black;
     padding: 10px;
     padding-left: 80px;
     margin: auto;
@@ -252,4 +251,41 @@ img{
 #m6s2 ul li{
     
     padding-top: 5px;
+}
+#m6s3{
+    display: flex;
+    white-space: nowrap;
+    border-bottom: 1px solid black;
+    padding: 30px;
+    padding-left: 80px;
+    margin: auto;
+    width: 70%;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#m6s4{
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 80px;
+    margin: auto;
+    width: 70%;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#m6s4 ul{
+    list-style-type: none;
+    margin: 0;
+}
+#m6s4 li{
+    display: inline;
+    padding: 0 9px 0 0;
+    border-right: 1px solid black;
 }
