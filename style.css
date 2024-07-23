@@ -245,7 +245,7 @@ img{
     display: flex;
     white-space:wrap;
     border-bottom: 1px solid black;
-    padding: 30px;
+    padding: 30px 0 30px 10px;
     padding-left: 80px;
     margin: auto;
     width: 70%;
@@ -271,15 +271,25 @@ img{
 #m6s4 ul{
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 #m6s4 li{
     display: inline;
     padding: 0 9px 0 0;
     border-right: 1px solid black;
 }
+#ind{
+    padding-left: 25%;
+}
 @media screen and (max-width:430px) {
     .nav li{
         padding: 17px 2px;
+    }
+    .h1 p{
+        font-size: 8vw;
+    }
+    .h2 p{
+        font-size: 4vw;
     }
     #m1 img,#m2 img,#m3 img{
         height: 400px;
@@ -297,7 +307,12 @@ img{
         gap: 5px;
         margin: 2px;
     }
-    
+    .gh1 p{
+        font-size: 6vw;
+    }
+    .gh2 p{
+        font-size: 2.8vw;
+    }
     .gbb a{
         padding: 5px 7px;
     }
@@ -308,6 +323,7 @@ img{
         padding: 5px 0;
         margin: 0;
         width: 100%;
+        font-size: 1.5vw;
     }
     #m6s1 ul{
         padding: 10px;
@@ -319,17 +335,26 @@ img{
         padding: 10px;
         margin: 0;
         width: 100%;
+        font-size: 1.5vw;
+    }
+    #m6s2 h3{
+        font-size: 1.5vw;
     }
     #m6s3{
         width: 100%;
-        padding: 10px;
+        padding: 10px 0 ;
+        font-size: 1.5vw;
     }
     #m6s4{
         width: 100%;
         padding: 10px;
+        font-size: 1.5vw;
     }
     #m6s4 ul{
         margin: 0;
+    }
+    #ind{
+        padding-left: 9%;
     }
     
 }
