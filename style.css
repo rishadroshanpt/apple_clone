@@ -82,7 +82,7 @@ img{
     background-color: rgba(13, 101, 223, 0);
     border: 1px solid rgb(13, 100, 223);
     border-radius: 25px;
-    padding: 10px 15px;
+    padding: 9px 14px;
 }
 .tb a:hover{
     background-color: rgb(13, 100, 223);
@@ -167,7 +167,7 @@ img{
     background-color: rgba(13, 101, 223, 0);
     border: 1px solid rgb(13, 100, 223);
     border-radius: 25px;
-    padding: 10px 15px;
+    padding: 9px 14px;
     text-decoration: none;
     color:rgb(13, 100, 223);
     font-size: 15px;
@@ -379,7 +379,7 @@ img{
         background-color: rgba(13, 101, 223, 0);
         border: 1px solid rgb(13, 100, 223);
         border-radius: 25px;
-        padding: 5px 7px;
+        padding: 4px 6px;
     }
     .tb a:hover{
         background-color: rgb(13, 100, 223);
@@ -451,7 +451,7 @@ img{
         background-color: rgba(13, 101, 223, 0);
         border: 1px solid rgb(13, 100, 223);
         border-radius: 25px;
-        padding: 5px 7px;
+        padding: 4px 6px;
         text-decoration: none;
         color:rgb(13, 100, 223);
         font-size: 4px;
@@ -489,25 +489,27 @@ img{
     }
     #m6s1{
         border-bottom: 1px solid black;
-        padding: 5px;
-        margin: auto;
-        width: 70%;
-        font-size: 4px;
+        padding: 5px 0;
+        margin: 0;
+        width: 100%;
+        font-size: 8px;
         line-height: 1.3333733333;
         font-weight: 400;
         letter-spacing: -0.01em;
         font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+    #m6s1 ul{
+        padding: 10px;
     }
     #m6s1 li{
         margin-top:8px;
     }
     #m6s2{
         display: flex;
-        padding: 10px;
-        padding-left: 80px;
-        margin: auto;
-        width: 70%;
-        font-size: 4px;
+        padding: 10px 0;
+        margin: 0;
+        width: 100%;
+        font-size: 7px;
         line-height: 1.3333733333;
         font-weight: 400;
         letter-spacing: -0.01em;
@@ -519,7 +521,7 @@ img{
         height: auto;
     }
     #m6s2 h3{
-        font-size: 4px;
+        font-size: 8px;
         line-height: 1.3333733333;
         font-weight: 400;
         letter-spacing: -0.01em;
@@ -542,11 +544,10 @@ img{
         display: flex;
         white-space:wrap;
         border-bottom: 1px solid black;
-        padding: 10px;
-        padding-left: 80px;
-        margin: auto;
-        width: 70%;
-        font-size: 4px;
+        padding: 10px 0;
+        margin: 0;
+        width: 100%;
+        font-size: 7px;
         line-height: 1.3333733333;
         font-weight: 400;
         letter-spacing: -0.01em;
@@ -555,11 +556,10 @@ img{
     #m6s4{
         display: flex;
         white-space:wrap;
-        padding: 10px;
-        padding-left: 80px;
-        margin: auto;
-        width: 70%;
-        font-size: 4px;
+        padding:10px 0;
+        margin: 0;
+        width: 100%;
+        font-size: 7px;
         line-height: 1.3333733333;
         font-weight: 400;
         letter-spacing: -0.01em;
