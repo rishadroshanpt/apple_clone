@@ -57,7 +57,7 @@ img{
 .bb{
     position: absolute;
     top: 25%;
-    left: 43%;
+    left: 41%;
     text-align: center;
 }
 .tb{
@@ -354,7 +354,7 @@ img{
         margin: 0;
     }
     #ind{
-        padding-left: 9%;
+        padding-left: 4%;
     }
     
 }
