@@ -6,24 +6,20 @@ body{
 #m1,#m2,#m3{
     padding-bottom: 5px;
 }
-.nav{
-    width: 100%;
-    overflow: hidden;
+.navbar{
     background-color: rgba(0, 0, 0, 0.673);
     color: rgb(152, 152, 152);
-    position: fixed;
     margin: 0;
     text-align: center;
     z-index: 100;
     backdrop-filter: blur(25px);
 }
-.nav li{
-    display: inline-block;
-    padding: 15px 16px;
+.navbar li{
     font-size: 1vw;
 }
-.nav li:hover{
-    color: rgb(215, 212, 212);}
+#navbar{
+    padding-left: 22%;
+}
 #navback{
     background-color: rgb(47, 42, 42);
     width: 100%;
@@ -282,8 +278,8 @@ img{
     padding-left: 25%;
 }
 @media screen and (max-width:430px) {
-    .nav li{
-        padding: 17px 2px;
+    #navbar{
+        padding-left: 10px;
     }
     .h1 p{
         font-size: 8vw;
