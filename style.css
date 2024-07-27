@@ -278,6 +278,12 @@ img{
     padding-left: 25%;
 }
 @media screen and (max-width:430px) {
+    .navbar{
+        background-color: rgb(0, 0, 0);
+        color: rgb(152, 152, 152);
+        margin: 0;
+        z-index: 100;
+    }
     #navbar{
         padding-left: 10px;
     }
